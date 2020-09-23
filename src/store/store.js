@@ -8,6 +8,7 @@ export default new Vuex.Store({
         // 设置初始属性值
         count: 0
     },
+    // 对state进行修改
     mutations: {
         addCount(state, num) {
             state.count = state.count + num

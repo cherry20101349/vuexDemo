@@ -14,10 +14,10 @@ export default {
   },
   methods: {
     add(){
-
+      this.$store.commit('addCount', 1)
     },
     del(){
-      
+      this.$store.commit('delCount', 1)
     }
   }
 }
